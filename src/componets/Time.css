@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.ContainerTime{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20vw;
+    height: 40vh;
+    border-radius: 1vw;
+    border:solid 1px;
+    background: #70DB93;
+    box-shadow: 0 0 1em #cccccc;
+}
+
+.placares{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+
+
+
+.Placar{
+    font-size: 15vw;
+    padding: 1vh;
+    color: #000000;
+}
+
+.NomeTime {
+    font-size: x-large;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.1vw;
+    border:solid 1px;
+    background: #bebebe;
+    box-shadow: 0 0 1em #cccccc;
+}

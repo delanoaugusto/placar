@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+/*    font-family: ;*/
+}
+
+.PlacarContainer{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100vh;
+   /*background-image: url(https://scontent.cdninstagram.com/v/t51.29350-15/403910471_1089510482227092_5274073824877229955_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c4dd86&_nc_ohc=t5HD216H4QgAX_zhw6J&_nc_ht=scontent.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AfCWuP-WrUSJ5VV-eZlt52-iX-WYSB2oBC-oXjO9X60nhw&oe=65656D5B);
+   background-size: 1000px 1000px;*/
+}
+
+.InfoPartida{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 4vw;
+    width: 10vw;
+   
+}
+
+.Local{
+    display: flex;
+    justify-content: center;
+    padding: 0.5vw;
+    width: 15vw;
+    border-radius: 20px;
+    background: #e0e0e0;
+    font-size: 2.0vw;
+    color: #000000;
+    font-weight: bold;
+    
+}
+
+.Competicao{
+    font-size: 1.2vw;
+    padding: 0.5vw;
+    color: #000000;
+    font-weight: bold;
+}
+
+p{
+    margin-top: 1vh;
+    color: #5a5a5a;
+}
+
+h2{
+    margin-left: 9vw;
+    margin-bottom: 2vw;
+    color: #202020;
+}
+
+.times{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timeA{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+   
+ 
+
+}.timeB{
+    position: fixed;
+    bottom: 0;
+    width: 75%;
+
+}
