@@ -43,8 +43,11 @@ function PlacarContainer(){
                            
         <form>
       <select value={periodo} onChange={handleChange}>
-        <option value="1">1º Tempo</option>
-        <option value="2">2º Tempo</option>
+        <option value="1º Tempo">1º Tempo</option>
+        <option value="2º Tempo">2º Tempo</option>
+        <option value="1º Tempo Prorrogação">1º Tempo Prorrogação</option>
+        <option value="2º Tempo Prorrogação">2º Tempo Prorrogação</option>
+        <option value="Penâltis">Penâltis</option>
       </select>
     </form>
       
@@ -59,7 +62,7 @@ function PlacarContainer(){
             
             <div className="InfoPartida">
             <div className="periodos">
-                {periodo}º Tempo 
+                {periodo}
                 </div>
                 <div className="Local">
                 Seridosão 2023
