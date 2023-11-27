@@ -41,6 +41,15 @@
     padding: 0.5vw;
     color: #000000;
     font-weight: bold;
+   
+}
+
+.periodos{
+    font-size: 1.6vw;
+    padding: 0.5vw;
+    color: #000000;
+    font-weight: bold;
+    margin: 9%; 
 }
 
 p{
@@ -68,9 +77,18 @@ h2{
    
  
 
-}.timeB{
+}
+
+.timeB{
     position: fixed;
     bottom: 0;
     width: 75%;
+
+}
+
+.periodo{
+    position: fixed;
+    bottom: 0;
+    width: 50%;
 
 }
