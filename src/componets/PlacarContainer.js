@@ -8,7 +8,7 @@ function PlacarContainer(){
 
     const [mandante, setmandante] = useState('');
     const [visitante, setvisitante] = useState('');
-    const [periodo, setPeriodo] = useState(0)
+    const [periodo, setPeriodo] = useState(1)
     const handleChange = (event) => {
       setPeriodo(event.target.value)
     }
