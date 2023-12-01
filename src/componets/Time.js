@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import './Time.css'
 
+
 function Time(props){
 
     const [placar, setPlacar] = useState(0)

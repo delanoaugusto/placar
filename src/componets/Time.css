@@ -2,17 +2,17 @@
     margin: 0;
     padding: 0;
     
+    
 }
 .ContainerTime{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 20vw;
+    width: 25vw;
     height: 40vh;
     border-radius: 1vw;
-    border:solid 1px;
-    background: #70DB93;
+    background: #FFFFFF;
     box-shadow: 0 0 1em #cccccc;
 }
 
@@ -30,9 +30,9 @@
 
 
 .Placar{
-    font-size: 15vw;
+    font-size: 20vw;
     padding: 1vh;
-    color: #000000;
+    color: #337a24;
 }
 
 .NomeTime {
@@ -47,7 +47,7 @@
     width: 100%;
     height: 100%;
     border-radius: 0.1vw;
-    border:solid 1px;
-    background: #bebebe;
-    box-shadow: 0 0 1em #cccccc;
+    background: rgb(2, 36, 2);
+    color: #FFFFFF;
+  
 }

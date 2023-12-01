@@ -1,16 +1,19 @@
 *{
     margin: 0;
     padding: 0;
-/*    font-family: ;*/
+    font-family: 'Varsity Team', sans-serif;
 }
+
 
 .PlacarContainer{
    display: flex;
    justify-content: center;
    align-items: center;
    height: 100vh;
-   /*background-image: url(https://scontent.cdninstagram.com/v/t51.29350-15/403910471_1089510482227092_5274073824877229955_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=c4dd86&_nc_ohc=t5HD216H4QgAX_zhw6J&_nc_ht=scontent.cdninstagram.com&edm=ANQ71j8EAAAA&oh=00_AfCWuP-WrUSJ5VV-eZlt52-iX-WYSB2oBC-oXjO9X60nhw&oe=65656D5B);
-   background-size: 1000px 1000px;*/
+   background-image: url("/src/assets/BC.jpg");
+   background-size: 100%;
+   background-position: 50%;
+   
 }
 
 .InfoPartida{
@@ -19,7 +22,7 @@
     align-items: center;
     flex-direction: column;
     padding: 4vw;
-    width: 10vw;
+    width: 15vw;
    
 }
 
@@ -27,26 +30,29 @@
     display: flex;
     justify-content: center;
     padding: 0.3vw;
-    width: 15vw;
+    width: 17vw;
     border-radius: 20px;
     background: #e0e0e0;
-    font-size: 2.1vw;
+    font-size: 2.2vw;
     color: #000000;
     font-weight: bold;
     
 }
 
 .Competicao{
-    font-size: 1.2vw;
+    font-size: 1.5vw;
     padding: 0.5vw;
-    color: #000000;
+    color: #FFFFFF;
     font-weight: bold;
    
 }
 
 .periodos{
-    font-size: 1.9vw;
+    display: flex;
+    justify-content: center;
+    font-size: 1.8vw;
     padding: 0.3vw;
+    width: 20vw;
     color: #000000;
     font-weight: bold;
     margin: 09%; 
@@ -84,13 +90,13 @@ h2{
 .timeB{
     position: fixed;
     bottom: 0;
-    width: 75%;
+    width: 74%;
 
 }
 
 .periodo{
     position: fixed;
     bottom: 0;
-    width: 50%;
+    width: 48%;
 
 }

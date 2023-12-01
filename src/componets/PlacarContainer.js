@@ -3,7 +3,9 @@ import { useState } from 'react';
 
 import Time from "./Time";
 import './PlacarCon.css'
-
+<style>
+@import url('https://fonts.cdnfonts.com/css/varsity-team');
+</style>
 function PlacarContainer(){
 
     const [mandante, setmandante] = useState('');
